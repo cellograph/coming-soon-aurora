@@ -18,7 +18,9 @@ export function Hero() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <img src="/logo.png" className="object-cover" />
+        <div className="text-3xl md:text-5xl font-bold dark:text-white text-center">
+          Neoon
+        </div>
         <div className="text-3xl md:text-5xl font-bold dark:text-white text-center">
           Your Pathway To Excellence.
         </div>
